@@ -1,0 +1,20 @@
+.cart-item:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item {
+  padding: 0.25rem;
+  display: grid;
+  gap: 0.25rem;
+}
+
+.cart-item-quantity {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cart-item-quantity span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  padding: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 30ch;
+  gap: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  padding: 0.25rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
